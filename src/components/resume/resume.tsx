@@ -19,7 +19,7 @@ export const Resume: React.FC = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="2+ YEARS OF EXPERIENCE" des="My Resume" />
       </div>
-      <div className=" flex justify-center items-center  p-3 ">
+      <div className=" flex justify-center items-center p-3 ">
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  ">
           <li
             onClick={() => {

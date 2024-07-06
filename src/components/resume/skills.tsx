@@ -80,7 +80,7 @@ const Skills: React.FC = () => {
         </div>
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">React</p>
+            <p className="text-sm uppercase font-medium">React Js</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -120,6 +120,19 @@ const Skills: React.FC = () => {
           </div>
 
           <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">TypeScript</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">90%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">JavaScript</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
@@ -133,15 +146,28 @@ const Skills: React.FC = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">SOFTWARE</p>
+            <p className="text-sm uppercase font-medium">Redux Tool Kit</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[98%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">90%</span>
+                <span className="absolute -top-7 right-0">98%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Zustand</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[100%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
             </span>
           </div>
