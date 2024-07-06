@@ -6,6 +6,7 @@ import contentAiExtensionImg from "./images/contentAiExtension.png";
 import quote from "./images/testmonial/quote.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
+import testimonialThree from "./images/testmonial/testimonialThree.jpeg";
 export {
   navLogo,
   bannerImg,
@@ -15,4 +16,5 @@ export {
   quote,
   testimonialOne,
   testimonialTwo,
+  testimonialThree,
 };
