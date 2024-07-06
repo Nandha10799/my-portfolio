@@ -39,7 +39,7 @@ export const Testimonial: React.FC = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    beforeChange: (prev: any, next: any) => {
+    beforeChange: (next: any) => {
       setDocActive(next);
     },
     appendDots: (dots: any) => (
