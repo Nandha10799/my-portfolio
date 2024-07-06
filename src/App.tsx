@@ -3,8 +3,8 @@ import { Navbar } from "./components/navBar/navbar";
 import { Banner } from "./components/banner";
 import { Features } from "./components/features/feature";
 import { Projects } from "./components/projects/project";
-import Resume from "./components/resume/resume";
-import { Testimonial } from "./components/testimonial";
+import { Resume } from "./components/resume/resume";
+import { TestimonialSlider } from "./components/testimonial/testimonial";
 
 const App: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const App: React.FC = () => {
         <Features />
         <Projects />
         <Resume />
-        <Testimonial />
+        <TestimonialSlider />
       </div>
     </div>
   );

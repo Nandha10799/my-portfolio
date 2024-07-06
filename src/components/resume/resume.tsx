@@ -5,7 +5,7 @@ import Skills from "./skills";
 import Achievement from "./archievement";
 import Experience from "./experience";
 
-const Resume: React.FC = () => {
+export const Resume: React.FC = () => {
   const [educationData, setEducationData] = useState<boolean>(true);
   const [skillData, setSkillData] = useState(false);
   const [experienceData, setExperienceData] = useState(false);
@@ -73,5 +73,3 @@ const Resume: React.FC = () => {
     </section>
   );
 };
-
-export default Resume;

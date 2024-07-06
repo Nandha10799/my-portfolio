@@ -20,6 +20,11 @@ export const navLinksData = [
     link: "resume",
   },
   {
+    _id: 1005,
+    title: "Testimonial",
+    link: "testimonial",
+  },
+  {
     _id: 1006,
     title: "Contact",
     link: "contact",
