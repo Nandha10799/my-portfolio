@@ -35,11 +35,11 @@ const Education: React.FC = () => {
       <div className="w-full lg:w-[50%]">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2019 - 2023</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Qualification</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full min-h-[700px] max-h-[800px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BCA in Computer Application"
+            title="Bachelor of Computer Application (BCA)"
             subTitle="Bharathiyar University (2020 - 2023)"
             result="Coimbatore"
             des="I chose the School of Distance Education's BCA program because it allows me to balance my studies with my work commitments. The flexible schedule and online coursework enable me to advance my education without compromising my professional responsibilities."
