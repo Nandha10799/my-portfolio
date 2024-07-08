@@ -20,10 +20,22 @@ export const LeftBanner: React.FC = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = `/src/assets/resume/resume.pdf`; // Adjust the path if necessary
-    link.download = "Resume.pdf";
+    link.href =
+      "https://drive.google.com/uc?id=1sfBwtB7D9mu8Gm2558hC0yqL9TrLBfou&export=download"; // Replace with your actual file URL
+    link.download = "Resume.pdf"; // Specify the filename for the downloaded file
     link.click();
   };
+
+  // const handleDownload = () => {
+  //   const link = document.createElement("a");
+  //   link.href =
+  //     "https://drive.google.com/file/d/1sfBwtB7D9mu8Gm2558hC0yqL9TrLBfou/view?usp=sharing"; // Replace with your actual file URL
+  //   link.download = "Resume.pdf"; // Specify the filename for the downloaded file
+  //   link.target = "_blank"; // Optional: Opens the link in a new tab
+  //   document.body.appendChild(link); // Append the link to the DOM
+  //   link.click(); // Simulate a click event to trigger the download
+  //   document.body.removeChild(link); // Clean up: remove the element from the DOM once downloaded
+  // };
 
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
