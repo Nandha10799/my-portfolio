@@ -21,7 +21,8 @@ export const projectData: typeProjectData[] = [
     src: contentAiImg,
   },
   {
-    webLink: "https://gozen.io/contentai",
+    webLink:
+      "https://chromewebstore.google.com/detail/gozen-contentai/glhodlndnfnmighfapfghjgbmajinooi?hl=en",
     title: "Content.Ai Chrome Extension",
     des: "Content.ai is a powerful Chrome extension designed to revolutionize your content creation process. Whether you're a blogger, marketer, student, or professional writer, Content.ai provides you with intelligent tools to create high-quality content effortlessly.",
     src: contentAiExtensionImg,

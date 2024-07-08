@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaReact,
   FaNode,
+  FaInstagram,
 } from "react-icons/fa";
 import { SiTailwindcss, SiPrisma, SiVite } from "react-icons/si";
 
@@ -14,13 +15,36 @@ export const Media: React.FC = () => {
       <div className="">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <span
+            className="bannerIcon"
+            onClick={() =>
+              window.open(
+                "https://www.facebook.com/profile.php?id=61550328200495"
+              )
+            }
+          >
             <FaFacebookF />
           </span>
-          <span className="bannerIcon">
+          <span
+            className="bannerIcon"
+            onClick={() => window.open("https://x.com/nandha10799")}
+          >
             <FaTwitter />
           </span>
-          <span className="bannerIcon">
+          <span
+            className="bannerIcon"
+            onClick={() => window.open("https://www.instagram.com/nk10_11/")}
+          >
+            <FaInstagram />
+          </span>
+          <span
+            className="bannerIcon"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/nandhakumar-m-81b8841a1/"
+              )
+            }
+          >
             <FaLinkedinIn />
           </span>
         </div>

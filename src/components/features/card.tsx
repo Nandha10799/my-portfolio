@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import { HiArrowRight } from "react-icons/hi";
 
 const Card: React.FC<{
   item: { title: string; des: string; icon: ReactNode };
@@ -25,9 +24,6 @@ const Card: React.FC<{
               {title}
             </h2>
             <p className="base">{des}</p>
-            <span className="text-2xl text-designColor">
-              <HiArrowRight />
-            </span>
           </div>
         </div>
       </div>

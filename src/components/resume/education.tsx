@@ -18,7 +18,7 @@ const Education: React.FC = () => {
         <div className="mt-6 lgl:mt-14 w-full min-h-[700px] max-h-[800px] border-l-[6px] border-l-black border-opacity-10 flex flex-col gap-10">
           <ResumeCard
             title="Full Stack Web Developer"
-            subTitle="GoZen Technologies- (2024 - Present)"
+            subTitle="GoZen Technologies- (2022 - Present)"
             result="Coimbatore"
             des="A software engineer designs, develops, and maintains software systems. They apply engineering principles to create software solutions, ensuring functionality, scalability, and performance. Tasks include coding, testing, debugging, and collaborating with other team members to meet project requirements and deadlines."
           />
@@ -34,7 +34,7 @@ const Education: React.FC = () => {
       {/* Education Part */}
       <div className="w-full lg:w-[50%]">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2019 - 2023</p>
+          <p className="text-sm text-designColor tracking-[4px]">2016 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Qualification</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full min-h-[700px] max-h-[800px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">

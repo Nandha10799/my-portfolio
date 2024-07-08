@@ -80,7 +80,7 @@ export const TestimonialSlider: React.FC = () => {
         <Slider {...settings}>
           {testimonialData.map((data: typeTestimonialData) => {
             return (
-              <div className="w-full">
+              <div className="w-full p-2">
                 <div className="flex flex-col justify-between w-full h-auto lgl:flex-row">
                   <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                     <img

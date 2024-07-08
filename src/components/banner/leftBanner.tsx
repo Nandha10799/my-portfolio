@@ -1,6 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { Media } from "./media";
+import { FaDownload } from "react-icons/fa";
 
 export const LeftBanner: React.FC = () => {
   const [text] = useTypewriter({
@@ -16,10 +17,18 @@ export const LeftBanner: React.FC = () => {
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = `/src/assets/resume/resume.pdf`; // Adjust the path if necessary
+    link.download = "Resume.pdf";
+    link.click();
+  };
+
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h4 className=" text-lg font-normal">WELCOME TO MY REALM</h4>
         <h1 className="text-5xl font-bold text-white">
           Hi, I'm{" "}
           <span className="text-designColor capitalize">Nandhakumar</span>
@@ -37,6 +46,17 @@ export const LeftBanner: React.FC = () => {
           work in a team.
         </p>
       </div>
+      <button
+        className="bg-red-600 py-4 px-5 w-[40%] rounded-lg font-semibold justify-center flex items-center gap-3"
+        onClick={() => {
+          handleDownload();
+        }}
+      >
+        <span>
+          <FaDownload />
+        </span>
+        <span>Download Resume</span>
+      </button>
       <Media />
     </div>
   );
