@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { navLinksData } from "../../constant";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { navLogo } from "../../assets";
 
@@ -48,9 +53,9 @@ export const Navbar: React.FC = () => {
               <div>
                 <img className="w-32" src={navLogo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I specialize in React.js for frontend and Node.js for backend
+                  development, focusing on innovative solutions and dynamic web
+                  applications with modern JavaScript frameworks.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -78,13 +83,38 @@ export const Navbar: React.FC = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
+                  <span
+                    className="bannerIcon"
+                    onClick={() =>
+                      window.open(
+                        "https://www.facebook.com/profile.php?id=61550328200495"
+                      )
+                    }
+                  >
                     <FaFacebookF />
                   </span>
-                  <span className="bannerIcon">
+                  <span
+                    className="bannerIcon"
+                    onClick={() => window.open("https://x.com/nandha10799")}
+                  >
                     <FaTwitter />
                   </span>
-                  <span className="bannerIcon">
+                  <span
+                    className="bannerIcon"
+                    onClick={() =>
+                      window.open("https://www.instagram.com/nk10_11/")
+                    }
+                  >
+                    <FaInstagram />
+                  </span>
+                  <span
+                    className="bannerIcon"
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/in/nandhakumar-m-81b8841a1/"
+                      )
+                    }
+                  >
                     <FaLinkedinIn />
                   </span>
                 </div>

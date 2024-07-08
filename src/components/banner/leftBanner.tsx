@@ -46,17 +46,19 @@ export const LeftBanner: React.FC = () => {
           work in a team.
         </p>
       </div>
-      <button
-        className="bg-red-600 py-4 px-5 w-[40%] rounded-lg font-semibold justify-center flex items-center gap-3"
-        onClick={() => {
-          handleDownload();
-        }}
-      >
-        <span>
-          <FaDownload />
-        </span>
-        <span>Download Resume</span>
-      </button>
+      <div className="w-full">
+        <button
+          className="bg-red-600 py-4 px-5 w-[80%] mx-auto lgl:mx-0 lgl:w-[40%] rounded-lg font-semibold justify-center flex items-center gap-3"
+          onClick={() => {
+            handleDownload();
+          }}
+        >
+          <span>
+            <FaDownload />
+          </span>
+          <span>Download Resume</span>
+        </button>
+      </div>
       <Media />
     </div>
   );
